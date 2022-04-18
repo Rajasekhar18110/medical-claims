@@ -14,7 +14,7 @@ password = 'Raj18110'
 applications = {};
 # application_no = 1;
 
-app = Flask(__name__,static_folder='../Frontend/build',static_url_path='')
+app = Flask(__name__,static_folder='../../medical-claims',static_url_path='')
 CORS(app)
 
 
