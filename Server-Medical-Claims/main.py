@@ -6,16 +6,21 @@ import base64
 import psycopg2
 import json
 import db_connection
+from flask_cors import CORS, cross_origin
+from flask.helpers import send_from_directory
 
 user_name = 'postgres'
-password = '17102003'
+password = 'Raj18110'
 applications = {};
 # application_no = 1;
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder='../Frontend/build',static_url_path='')
+CORS(app)
+
 
 
 @app.route('/check_user', methods=['GET', 'POST'])
+@cross_origin()
 def check_user():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -68,6 +73,7 @@ def check_user():
 
 
 @app.route('/updateStatus', methods=['GET', 'POST'])
+@cross_origin()
 def updateStatus():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -128,6 +134,7 @@ def updateStatus():
 
 
 @app.route('/getData', methods=['GET', 'POST'])
+@cross_origin()
 def getData():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -163,6 +170,7 @@ def getData():
 
 
 @app.route('/getApplicationId', methods=['GET', 'POST'])
+@cross_origin()
 def getApplicationId():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -187,6 +195,7 @@ def getApplicationId():
     return {"status": "getApplicationId working"}
 
 @app.route('/getallApplicationIdFromPharmacist', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromPharmacist():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -219,6 +228,7 @@ def getallApplicationIdFromPharmacist():
 
 
 @app.route('/getallApplicationIdFromMedicalOff', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromMedicalOff():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -243,6 +253,7 @@ def getallApplicationIdFromMedicalOff():
 
 
 @app.route('/getallApplicationIdFromAccSec', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromAccSec():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -269,6 +280,7 @@ def getallApplicationIdFromAccSec():
 
 
 @app.route('/getallApplicationIdFromDAorJAO', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromDAorJAO():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -295,6 +307,7 @@ def getallApplicationIdFromDAorJAO():
 
 
 @app.route('/getallApplicationIdFromAO', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromAO():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -320,6 +333,7 @@ def getallApplicationIdFromAO():
 
 
 @app.route('/getallApplicationIdFromSrAo', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationIdFromSrAo():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -344,6 +358,7 @@ def getallApplicationIdFromSrAo():
     return {"status": "getallApplicationIdFromSrAo working"}
 
 @app.route('/showApplicationId/<id>', methods=['GET', 'POST'])
+@cross_origin()
 def showApplicationId(id):
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -365,6 +380,7 @@ def showApplicationId(id):
 
 
 @app.route('/getallApplicationId', methods=['GET', 'POST'])
+@cross_origin()
 def getallApplicationId():
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -389,6 +405,7 @@ def getallApplicationId():
 
 
 @app.route('/showallApplicationId/<id>', methods=['GET', 'POST'])
+@cross_origin()
 def showallApplicationId(id):
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -410,6 +427,7 @@ def showallApplicationId(id):
 
 
 @app.route('/showApplicationIdStatus/<id>', methods=['GET', 'POST'])
+@cross_origin()
 def showApplicationIdStatus(id):
     if (request.method == 'POST'):
         request_data = request.get_json()
@@ -476,6 +494,7 @@ def showApplicationIdStatus(id):
 
 
 @app.route("/get_images", methods=["GET", "POST"])
+@cross_origin()
 def get_images():
     if(request.method == 'POST'):
         request_data = request.get_json()
@@ -507,6 +526,7 @@ def get_images():
 
 
 @app.route("/get_images_id/<id>", methods=["GET", "POST"])
+@cross_origin()
 def get_images_id(id):
     if(request.method == 'POST'):
         request_data = request.get_json()
@@ -536,6 +556,7 @@ def get_images_id(id):
     return {"status": "ok", "reuslt": imgs}
 
 @app.route("/send_images", methods=["POST"])
+@cross_origin()
 def post_Other_img():
     email = request.form.get("email")
     data = request.files.getlist('myfiles')
@@ -558,6 +579,10 @@ def post_Other_img():
 
     return {"state": "00"}
 
-    
+@app.route('/')
+@cross_origin()
+def serve():
+    return send_from_directory(app.static_folder,'index.html')
+
 if __name__ == "__main__":
     app.run()
