@@ -1,0 +1,16 @@
+.App-header {
+    margin-top: 20px;
+    display: flex;
+}
+
+#logo {
+    width:150px;
+    height:150px;
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+#heading {
+    text-align: center;
+}
