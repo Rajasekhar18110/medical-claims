@@ -14,7 +14,7 @@ Link : https://drive.google.com/file/d/1ksvpujcC1FYCaHtK9AXY9dXvN-lTbdW_/view?us
 
 ## Web portal Link
 
-Link : https://www.google.com/url?q=https%3A%2F%2Fmedical-claims-iitrpr.herokuapp.com%2F&sa=D&sntz=1&usg=AOvVaw3znftffiav3Thtmznxg87n
+Link : https://medical-claims-iitrpr.herokuapp.com/
 
 ## Features implemented
 
