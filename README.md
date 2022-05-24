@@ -31,4 +31,22 @@ Link : https://medical-claims-iitrpr.herokuapp.com/
 > -   Forgot password option .
 > -   Instruction that shows hierarchy of application to user and some relevant information.
 
+## Screenshots
 
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/1.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/2.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/3.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/4.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/5.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/6.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/7.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/8.jpg)
+
+![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/9.jpg)
