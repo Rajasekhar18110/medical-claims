@@ -49,4 +49,4 @@ Link : https://medical-claims-iitrpr.herokuapp.com/
 
 ![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/8.jpg)
 
-![ScreenShot](https://github.com/Rajasekhar18110/medical-claims/blob/main/Screenshots/9.jpg)
+
