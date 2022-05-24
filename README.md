@@ -1,5 +1,4 @@
 # Medical-claims
-<<<<<<< HEAD
 
 Summary : A Full stack Web Portal for Faculty and staff of IIT Ropar, where they can apply for medical reimbursement
 
@@ -30,9 +29,4 @@ Link : https://www.google.com/url?q=https%3A%2F%2Fmedical-claims-iitrpr.herokuap
 > -   Forgot password option .
 > -   Instruction that shows hierarchy of application to user and some relevant information.
 
-## Screenshots
-=======
-Summary : 
 
-A Full stack Web Portal for Faculty and staff of IIT Ropar, where they can apply for medical reimbursement
->>>>>>> 27edf4182c98a00ec0c74c6de0c94629ccc63104
