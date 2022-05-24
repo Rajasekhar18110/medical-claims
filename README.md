@@ -2,6 +2,8 @@
 
 Summary : A Full stack Web Portal for Faculty and staff of IIT Ropar, where they can apply for medical reimbursement
 
+Note: For security purposes, the code is in private repository, we cant make it public.
+
 ## Presentation of Project
 
 Link : https://docs.google.com/presentation/d/1g032ZhLy1RRe9nhDSMiet0CUW2ig4DZ0zUtNE4Ty1l0/edit?usp=sharing
