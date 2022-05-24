@@ -1,7 +1,8 @@
 # Medical-claims
-<<<<<<< HEAD
 
 Summary : A Full stack Web Portal for Faculty and staff of IIT Ropar, where they can apply for medical reimbursement
+
+Note: For security purposes, the code is in private repository, we cant make it public. I can show you during the interview.
 
 ## Presentation of Project
 
@@ -13,7 +14,7 @@ Link : https://drive.google.com/file/d/1ksvpujcC1FYCaHtK9AXY9dXvN-lTbdW_/view?us
 
 ## Web portal Link
 
-Link : https://www.google.com/url?q=https%3A%2F%2Fmedical-claims-iitrpr.herokuapp.com%2F&sa=D&sntz=1&usg=AOvVaw3znftffiav3Thtmznxg87n
+Link : https://medical-claims-iitrpr.herokuapp.com/
 
 ## Features implemented
 
@@ -30,9 +31,4 @@ Link : https://www.google.com/url?q=https%3A%2F%2Fmedical-claims-iitrpr.herokuap
 > -   Forgot password option .
 > -   Instruction that shows hierarchy of application to user and some relevant information.
 
-## Screenshots
-=======
-Summary : 
 
-A Full stack Web Portal for Faculty and staff of IIT Ropar, where they can apply for medical reimbursement
->>>>>>> 27edf4182c98a00ec0c74c6de0c94629ccc63104
