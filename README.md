@@ -4,7 +4,8 @@ Summary : A Full stack Web Portal for Faculty and staff of IIT Ropar, where they
 
 Note: For security purposes, the code is in private repository, we cant make it public. I can show you during the interview.
 
-## Presentation of Project
+## Presentation of Project  
+#### (detailed walkthrough of the website)
 
 Link : https://docs.google.com/presentation/d/1g032ZhLy1RRe9nhDSMiet0CUW2ig4DZ0zUtNE4Ty1l0/edit?usp=sharing
 
